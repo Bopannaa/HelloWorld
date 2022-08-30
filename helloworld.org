@@ -9,9 +9,11 @@
 
 * Testing Source code block
 ** Python testing
-#+begin_src python
-return "Bopanna"
+#+begin_src python :tangle hello.py
+import numpy as np
+print("Bopanna")
+print("This is Python")
 #+end_src
 
 #+RESULTS:
-: Bopanna
+: None
